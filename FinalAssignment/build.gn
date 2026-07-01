@@ -1,0 +1,8 @@
+static_library("simple_editor") {
+    sources = [ "simple_editor.c" ]
+    include_dirs = [
+        "//utils/native/lite/include",
+        "//kernel/liteos_m/components/shell/include",
+        "//kernel/liteos_m/kernel/include",
+    ]
+}
